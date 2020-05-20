@@ -1,0 +1,16 @@
+{
+    "server": {
+        "connection_string": "env:CeiApiDB__ConnectionString"
+    },
+    "database": {
+        "name": "cei_api",
+        "collections": {
+            "estudiantes": "estudiantes",
+            "materias": "materias"
+        }
+    },
+    "data": {
+        "estudiantes": "data/estudiantes.csv",
+        "cursos": "data/cursos.csv"
+    }
+}
